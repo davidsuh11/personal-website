@@ -1,6 +1,6 @@
 <script>
     import { fade, scale } from 'svelte/transition';
-    let occups = ['Computer Scientist', 'Mathematician', 'Engineer', 'Student']
+    let occups = ['Computer Scientist', 'Mathematician', ' Software Engineer', 'Student']
     let occup = occups[0]
     let idx = 0;
 
@@ -34,17 +34,19 @@
   100% { transform: rotate( 0.0deg) }
 }
 </style>
-<div class='p-12'>
+<div class='p-10 min-w-full h-full lg:p-12'>
+    <div class='h-80'>    
+        <h1 class="text-5xl">Hello! <span class='wave text-5xl'>👋</span>
+        <br>
+        <br>
+        I'm David Suh, a(n)... <br>
+        {#key occup}
+        <span class='text-5xl bg-transparent' in:fade="{{delay: 500, duration: 400}}" out:fade="{{duration: 400}}">{occup}</span>
+        {/key}
+        </h1>
+    </div>
 
-    <h1 class="text-5xl">Hello! <span class='wave text-5xl'>👋</span>
-    <br>
-    <br>
-    I'm David Suh, a(n) <br>
-    {#key occup}
-    <span class='text-5xl bg-transparent' in:fade="{{delay: 500, duration: 400}}" out:fade="{{duration: 400}}">{occup}</span>
-    {/key}
-    </h1>
-    <br>
-    <p>I'm a student currently pursuing a Bachelors in Mathematics and Computer Science with a Masters in Computer Science at the University of Chicago. This is my website, which I host to keep track of my personal projects, to post a couple blogs, and provide other people with a more in depth look at my work. </p>
+    <br><br>
+    <p class='text-xl md:text-2xl'>I'm a student currently pursuing a Bachelors in Mathematics and Computer Science with a Masters in Computer Science at the University of Chicago. This is my website, which I host to keep track of my personal projects, to post a couple blogs, and provide other people with a more in depth look at my work. </p>
 </div>
 

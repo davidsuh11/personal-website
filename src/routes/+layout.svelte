@@ -15,7 +15,11 @@
         color: inherit;
     }
 </style>
-<div class = "bg-zinc-900 m-0">
+<svelte:head>
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=0.50, maximum-scale=1">
+</svelte:head>
+<div class = "bg-zinc-900 m-0 w-full">
     <div class='flex gap-4 flex-row p-1 bg-inherit items-center'>
         <p class="bg-inherit font-mono font-extrabold p-1"> d\h.suh </p>
         <nav class = "flex gap-4 bg-inherit">
