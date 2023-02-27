@@ -19,12 +19,12 @@
     }
 </style>
 <body>
-    <div class='grid p-10 grid-cols-5'> 
-        <div class='col-span-2 overflow-hidden sticky top-5 h-screen'>
+    <div class='grid p-10 grid-cols-7'> 
+        <div class='col-span-2 overflow-hidden sticky top-5 h-screen hidden lg:block'>
             <p class='text-xl'>David Suh</p> <br>
             <p class='text-xs'>Hello!</p>
         </div>
-        <div class='col-span-3 overflow-hidden px-2'>
+        <div class='col-span-5 overflow-hidden px-2'>
             <h1 class='text-xl font-bold'>📖 Education </h1>
             <p class='float-right text-sm'> 2020-2024 </p>
             <p>University of Chicago </p> 

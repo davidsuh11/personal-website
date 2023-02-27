@@ -17,13 +17,13 @@
 </style>
 <div class = "bg-zinc-900 m-0">
     <div class='flex gap-4 flex-row p-1 bg-inherit items-center'>
-        <p class="bg-inherit font-serif p-1"> david h. suh </p>
+        <p class="bg-inherit font-mono font-extrabold p-1"> d\h.suh </p>
         <nav class = "flex gap-4 bg-inherit">
-            <a href="/">home</a>
-            <a href="/about">about</a>
-            <a href="/projects">projects</a>
-            <a href="/resume">cv/resume</a>
-            <a href="/blog">blog</a>
+            <a href="/" class='hover:italic'>home</a>
+            <a href="/about" class='hover:italic'>about</a>
+            <a href="/projects" class='hover:italic'>projects</a>
+            <a href="/resume" class='hover:italic'>cv/resume</a>
+            <a href="/blog" class='hover:italic'>blog</a>
 
 
         </nav>
