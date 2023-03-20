@@ -8,5 +8,5 @@ declare global {
 		// interface Platform {}
 	}
 }
-
+import "carbon-components-svelte/css/g90.css";
 export {};

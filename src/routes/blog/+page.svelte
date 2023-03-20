@@ -1,3 +1,7 @@
+<script>
+    import "carbon-components-svelte/css/g90.css";
+</script>
+
 <style>
     div {
     height: 200px;
@@ -9,8 +13,10 @@
     margin-top: -100px;
     margin-left: -200px;
 }
+
+
 </style>
 
-<div class='m-auto font-bold'>
+<div class='m-auto font-bold text-2xl'>
 Coming soon
 </div>

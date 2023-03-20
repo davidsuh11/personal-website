@@ -7,11 +7,6 @@
 
 
 
-* {
-    font: normal 28px 'Spoqa Han Sans Neo';
-    color: rgb(228, 228, 228);
-    background-color: rgb(10, 10, 10);
-}
 :global(html, body) {
     margin:0;
     padding:0;

@@ -1,4 +1,6 @@
 <script>
+    import "carbon-components-svelte/css/g90.css";
+    import * as carbon from "carbon-components-svelte";
     import "../app.css";
 </script>
 <style>
@@ -16,8 +18,8 @@
     }
 </style>
 <svelte:head>
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=0.50, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.50, maximum-scale=1">
+    <title>David Suh's Cave</title>
 </svelte:head>
 <div class = "bg-zinc-900 m-0 w-full">
     <div class='flex gap-4 flex-row p-1 bg-inherit items-center'>
