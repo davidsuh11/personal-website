@@ -34,16 +34,16 @@
   100% { transform: rotate( 0.0deg) }
 }
 </style>
-<div class='p-10 min-w-full h-full lg:p-12'>
-    <div class='h-80'>    
-        <h1 class="text-5xl">Hello! <span class='wave text-5xl'>👋</span>
+<div class='p-10 lg:p-12 lg:mx-32 mx-16'>
+    <div class='h-80 text-center my-20'>    
+        <span class='wave text-5xl'>👋</span><h1 class="text-5xl">Trying to live a good life.
         <br>
         <br>
-        I'm David Suh, a(n)... <br>
+        David Suh<sup>*</sup> <br><br>
         {#key occup}
-        <span class='text-5xl bg-transparent' in:fade="{{delay: 500, duration: 400}}" out:fade="{{duration: 400}}">{occup}</span>
+        <sup class='text-xl'>*</sup><span class='text-3xl bg-transparent' in:fade="{{delay: 500, duration: 400}}" out:fade="{{duration: 400}}">{occup}</span>
         {/key}
-        </h1>
+    </h1>
     </div>
 
     <br><br>
